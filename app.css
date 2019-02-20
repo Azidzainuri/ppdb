@@ -8587,11 +8587,6 @@ a.text-dark:hover, a.text-dark:focus {
 .text-opensans {
   font-family: "Open Sans", sans-serif;
 }
-
-.section {
-  padding: 3rem 0;
-}
-
 .section-title {
   font-size: 2.5rem;
   letter-spacing: 1px;
