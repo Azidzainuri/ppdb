@@ -127,10 +127,6 @@ html {
   width: device-width;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -3946,20 +3942,6 @@ input[type="button"].btn-block {
   margin-left: 1.25rem;
 }
 
-.card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(57, 57, 57, 0.03);
-  border-bottom: 1px solid rgba(57, 57, 57, 0.125);
-}
-
-.card-header:first-child {
-  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
-}
-
-.card-header + .list-group .list-group-item:first-child {
-  border-top: 0;
-}
 
 .card-footer {
   padding: 0.75rem 1.25rem;
@@ -8620,35 +8602,6 @@ input:focus {
   outline: none;
 }
 
-.navbar {
-  padding: 0.5rem 1rem;
-}
-
-@media (min-width: 576px) {
-  .navbar {
-    padding: 1rem 2rem;
-  }
-}
-
-.navbar.navbar-light {
-  background-color: transparent !important;
-}
-
-.navbar .navbar-brand .logo {
-  width: 70%;
-}
-
-.navbar.navbar-light .navbar-toggler {
-  border: none;
-}
-
-.navbar.navbar-light .navbar-toggler:focus {
-  outline: none;
-}
-
-.section-1 {
-  padding-top: 2rem;
-}
 
 @media (min-width: 576px) {
   .section-1 {
@@ -9286,27 +9239,6 @@ input:focus {
   width: 46px;
   top: -23px;
 }
-
-.section-4__tab-item.slick-current .nav-link.slide-link--1:before {
-  background-image: url("../img/kenapa-icon-1.png");
-  background-position: center center;
-}
-
-.section-4__tab-item.slick-current .nav-link.slide-link--2:before {
-  background-image: url("../img/kenapa-icon-2.png");
-  background-position: center center;
-}
-
-.section-4__tab-item.slick-current .nav-link.slide-link--3:before {
-  background-image: url("../img/kenapa-icon-3.png");
-  background-position: center center;
-}
-
-.section-4__tab-item.slick-current .nav-link.slide-link--4:before {
-  background-image: url("../img/kenapa-icon-4.png");
-  background-position: center center;
-}
-
 .section-4__tab-item--1 {
   left: 0;
   -webkit-transform: translateX(-50%);
