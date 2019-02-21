@@ -1,4 +1,3 @@
-<script type="text/javascript">
 // BloggerJS v0.3.1
 // Copyright (c) 2017-2018 Kenny Cruz
 // Licensed under the MIT License
@@ -31,4 +30,3 @@ else if(secondRequest){nextPageToken=undefined;urlTotal=undefined;jsonIndex=1;se
 else if(feedPriority===1){feedPriority=0;getJSON("pages",1)}}}
 function bloggerJS(priority){if(priority)feedPriority=priority;urlManager()}
 bloggerJS();
-</script>
